@@ -1,0 +1,7 @@
+.Animacao{
+    transition: box-shadow 0.3s ease;
+}
+
+.Animacao:hover{
+    box-shadow: 10px 10px 10px rgba(16, 148, 16, 0.986);
+}

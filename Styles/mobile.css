@@ -1,0 +1,79 @@
+/* Media Queries para responsividade */
+@media (max-width: 750px) {
+
+    
+    .parent {
+        display: flow-root;
+        gap: 8px;
+    }
+    
+    .div1{
+        font-size: small;
+    }
+
+    .div1 ul {
+        align-items: center;
+    }
+
+    .div2 header img {
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    .div2 header {
+        align-items: flex-start;
+    }
+
+
+    header h1 {
+        font-size: 1rem;
+    }
+
+    header h3 {
+        font-size: 1.2rem;
+    }
+
+    #Titulo{
+        font-size: 40px;
+        margin-left: 150px;
+    }
+
+    #Sobremim{
+        margin-top: 25px;
+        font-size: 16px;
+    }
+
+    .div5{
+        padding-right: 50px;
+    }
+
+    .div7{
+        padding-right: 50px;
+    }
+
+
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+    section p {
+        font-size: 0.95rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+
+   
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Efeito de destaque nos links */
+        a:focus, a:hover {
+            text-decoration: underline;
+        }
+}
